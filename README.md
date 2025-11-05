@@ -12,6 +12,25 @@ Navigate to the repo using the command line.
 cd ~/Documnets/GitHub/my-first-repo-fall-2025
 ```
 
+
+Create a virtual environment:
+
+```sh
+conda create -n my-first-env-fall-2025 python=3.11
+```
+
+Activate the virtual environment:
+
+```sh
+conda activate my-first-env-fall-2025
+```
+
+Install package dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+
 ## Usage
 
 Example script:
@@ -28,4 +47,12 @@ python app/rps.py
 # alternative "modular style" command:
 python -m app.rps
 ```
-For more information about Markdown syntax, see the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
+
+
+## Testing
+
+Run tests:
+
+```sh
+pytest
+```
